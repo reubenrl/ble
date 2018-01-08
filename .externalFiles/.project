@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.externalFiles</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_DLib_Product_string.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/DLib_Product_string.h</location>
+		</link>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_stdarg.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/stdarg.h</location>
+		</link>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_stdio.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/stdio.h</location>
+		</link>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_string.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/string.h</location>
+		</link>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_ysizet.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/ysizet.h</location>
+		</link>
+		<link>
+			<name>C__Program Files (x86)_IAR Systems_Embedded Workbench 7.5_arm_inc_c_yvals.h</name>
+			<type>1</type>
+			<location>C:/Program Files (x86)/IAR Systems/Embedded Workbench 7.5/arm/inc/c/yvals.h</location>
+		</link>
+		<link>
+			<name>C__SiliconLabs_SimplicityStudio_v4_configuration_org.eclipse.osgi_38____.cp_data_PROFILER_README.txt</name>
+			<type>1</type>
+			<location>C:/SiliconLabs/SimplicityStudio/v4/configuration/org.eclipse.osgi/380/0/.cp/data/PROFILER_README.txt</location>
+		</link>
+	</linkedResources>
+</projectDescription>
