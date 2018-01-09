@@ -44,5 +44,10 @@
 			<type>1</type>
 			<location>C:/SiliconLabs/SimplicityStudio/v4/configuration/org.eclipse.osgi/380/0/.cp/data/PROFILER_README.txt</location>
 		</link>
+		<link>
+			<name>C__SiliconLabs_SimplicityStudio_v4_developer_sdks_gecko_sdk_suite_v_.__hardware_kit_common_drivers_retargetserial.h</name>
+			<type>1</type>
+			<location>C:/SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.0/hardware/kit/common/drivers/retargetserial.h</location>
+		</link>
 	</linkedResources>
 </projectDescription>
