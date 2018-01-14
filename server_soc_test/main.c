@@ -40,10 +40,15 @@
 #include "bspconfig.h"
 #endif
 
+#include "bsp.h"
 
 #include <stdio.h>
 #include "retargetserial.h"
 #include "sleep.h"
+
+#include "i2cspm.h"
+#include "si7013.h"
+#include "tempsens.h"
 
 /***********************************************************************************************//**
  * @addtogroup Application
@@ -98,10 +103,15 @@ void main(void)
   initApp();
 
   RETARGET_SerialInit();	/* added */
+  BSP_LedsInit();
 
   printf("\r\nHello.....\r\n");
   // Initialize stack
   gecko_init(&config);
+
+  // Initialize the Temperature Sensor
+   Si7013_Detect(I2C0, SI7021_ADDR, NULL);
+
 
   /* select SPP client or server role based on PB0/PB1 status.
     * default (PBx released) -> server

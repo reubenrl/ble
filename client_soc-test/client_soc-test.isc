@@ -79,6 +79,14 @@ appPlugin: stack_bridge=false
       <properties notify="true" notify_requirement="optional" write_no_response="true" write_no_response_requirement="optional"/>
     </characteristic>
   </service>
+  <service advertise="false" id="health_thermometer" name="Health Thermometer" requirement="mandatory" sourceId="org.bluetooth.service.health_thermometer" type="primary" uuid="1809">
+    <informativeText>Abstract:  The Health Thermometer service exposes temperature and other data from a thermometer intended for healthcare and fitness applications.  Summary:  The Health Thermometer service is instantiated as a Primary Service. There are one or more instantiations of the Health Thermometer service per device claiming conformance with this specification.  </informativeText>
+    <characteristic id="temp_measurement" name="Temperature Measurement" sourceId="org.bluetooth.characteristic.temperature_measurement" uuid="2A1C">
+      <informativeText/>
+      <value length="5" type="utf-8" variable_length="false"/>
+      <properties indicate="true" indicate_requirement="optional"/>
+    </characteristic>
+  </service>
 </gatt>
 }
 {setupId:callbackConfiguration
