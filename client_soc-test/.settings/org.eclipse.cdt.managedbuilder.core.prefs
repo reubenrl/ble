@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/C_INCLUDE/delimiter=;
+environment/buildEnvironmentInclude/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/C_INCLUDE/operation=remove
+environment/buildEnvironmentInclude/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/append=true
+environment/buildEnvironmentInclude/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/appendContributed=true
+environment/buildEnvironmentLibrary/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/append=true
+environment/buildEnvironmentLibrary/com.silabs.ss.framework.project.toolchain.core.default\#com.silabs.ss.tool.ide.arm.toolchain.iar\:7.70.1.11437/appendContributed=true

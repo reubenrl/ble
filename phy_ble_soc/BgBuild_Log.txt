@@ -1,0 +1,12 @@
+// Copyright 2018 Silicon Laboratories, Inc.
+//
+//
+
+Executing: bgbuild.exe (C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.0\protocol\bluetooth_2.6\bin\bgbuild.exe)
+Standard output
+ALL OK
+
+Error/Warning output
+WARNING: da9547f04a254d4cadbc77a16520a006 max length attribute is 20 but actual value length is 2. 20 will be used.
+
+

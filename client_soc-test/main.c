@@ -82,7 +82,7 @@ static const gecko_configuration_t config = {
 uint8_t boot_to_dfu = 0;
 
 void spp_client_main(void);	/* added */
-void spp_server_main(void);	/* added */
+//void spp_server_main(void);	/* added */
 
 
 /**
@@ -99,7 +99,7 @@ void main(void)
 
   RETARGET_SerialInit();	/* added */
 
-  printf("\r\nHello.....\r\n");
+  printf("\r\nHello.....\r\n//");
   // Initialize stack
   gecko_init(&config);
 
@@ -113,13 +113,13 @@ void main(void)
    /* keeping either PB0 or PB1 pressed during reboot selects 'client mode' */
    if( !((GPIO_PinInGet(BSP_BUTTON0_PORT,BSP_BUTTON0_PIN) == 0) || (GPIO_PinInGet(BSP_BUTTON1_PORT,BSP_BUTTON1_PIN) == 0)) )	/* added */
    {	/* added */
- 	  printf("* SPP client mode *\r\n");
+ 	  printf("* Health_Thermometer client mode *\r\n");
  	  spp_client_main();
    }
    else
    {
- 	  printf("* SPP server mode *\r\n");
- 	  spp_server_main();
+ 	  printf("* Health_Thermometer server mode *\r\n");
+ 	  //spp_server_main();
    }
 
 

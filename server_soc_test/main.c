@@ -123,12 +123,12 @@ void main(void)
    /* keeping either PB0 or PB1 pressed during reboot selects 'client mode' */
    if((GPIO_PinInGet(BSP_BUTTON0_PORT,BSP_BUTTON0_PIN) == 0) || (GPIO_PinInGet(BSP_BUTTON1_PORT,BSP_BUTTON1_PIN) == 0))	/* added */
    {	/* added */
- 	  printf("* SPP client mode *\r\n");
+ 	  printf("* Health Thermometer client mode *\r\n");
  	  spp_client_main();
    }
    else
    {
- 	  printf("* SPP server mode *\r\n");
+ 	  printf("* Health Thermometer server mode *\r\n");
  	  spp_server_main();
    }
 

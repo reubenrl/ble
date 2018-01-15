@@ -6,7 +6,4 @@ Executing: bgbuild.exe (C:\SiliconLabs\SimplicityStudio\v4\developer\sdks\gecko_
 Standard output
 ALL OK
 
-Error/Warning output
-WARNING: fec26ec46d7144429f8155bc21d658d6 max length attribute is 20 but actual value length is 2. 20 will be used.
-
 

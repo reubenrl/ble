@@ -7,6 +7,6 @@ Standard output
 ALL OK
 
 Error/Warning output
-WARNING: 1c8d525b21a147a4a8cd384be09f7a85 max length attribute is 20 but actual value length is 2. 20 will be used.
+WARNING: fec26ec46d7144429f8155bc21d658d6 max length attribute is 20 but actual value length is 2. 20 will be used.
 
 
